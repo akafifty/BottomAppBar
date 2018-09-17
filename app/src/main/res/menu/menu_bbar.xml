@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/m_add_photo"
+        android:icon="@drawable/ic_add_a_photo"
+        android:title="Añadir foto"
+        android:onClick="addPhoto"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/m_search"
+        android:icon="@drawable/ic_search"
+        android:title="Buscar"
+        android:onClick="search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/m_editar"
+        android:icon="@drawable/ic_search"
+        android:showAsAction="ifRoom"
+        android:title="Editar" />
+
+
+    <item
+        android:icon="@drawable/ic_search"
+        android:showAsAction="ifRoom"
+        android:title="Cuenta">
+
+        <menu>
+
+            <item
+                android:id="@+id/m_vp"
+                android:showAsAction="ifRoom"
+                android:title="Ver perfil" />
+
+            <item
+                android:id="@+id/m_ep"
+                android:showAsAction="ifRoom"
+                android:title="Editar perfil" />
+
+            <item
+                android:id="@+id/m_cs"
+                android:showAsAction="ifRoom"
+                android:title="Cerrar sesion" />
+        </menu>
+
+    </item>
+
+
+</menu>
